@@ -87,7 +87,7 @@ $("#6th").on("click", function(){
     } else if(stage === 5){
         defender = characterList[tempList3[0]];
         updateStage();
-    } else {
+    } else if(stage === 2){
         defender = characterList[tempList[0]];
         updateStage();
     }
@@ -96,7 +96,7 @@ $("#7th").on("click", function(){
     if(stage === 4){
         defender = characterList[tempList2[1]];
         updateStage();
-    } else {
+    } else if(stage === 2){
         defender = characterList[tempList[1]];
         updateStage();
     }
@@ -250,34 +250,6 @@ function restartGame(){
     DarthMaul.health = 140;
     DarthMaul.basePower = 15;
     DarthMaul.power = 15;
-    // ObiWan = {
-    //     id: 0,
-    //     name: "Obi-Wan Kenobi",
-    //     health: 140,
-    //     power: 15,
-    //     img: "assets/images/Obi.jpg"
-    // }
-    // Luke = {
-    //     id: 1,
-    //     name: "Luke Skywalker",
-    //     health: 100,
-    //     power: 20,
-    //     img: "assets/images/luke.jpeg"
-    // }
-    // Sidious = {
-    //     id: 2,
-    //     name: "Darth Sidious",
-    //     health: 80,
-    //     power: 25,
-    //     img: "assets/images/Sidious.jpg"
-    // }
-    // DarthMaul = {
-    //     id: 3,
-    //     name: "Darth Maul",
-    //     health: 140,
-    //     power: 15,
-    //     img: "assets/images/Maul.png"
-    // }
     characterList = [ObiWan, Luke, Sidious, DarthMaul];
     updateStage();
 }
