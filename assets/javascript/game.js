@@ -13,7 +13,7 @@ var ObiWan = {
     health: 140,
     basePower: 15,
     power: 15,
-    img: "assets/images/obi.jpg"
+    img: "assets/images/Obi.jpg"
 }
 
 var Luke = {
@@ -31,7 +31,7 @@ var Sidious = {
     health: 80,
     basePower: 25,
     power: 25,
-    img: "assets/images/sidious.jpg"
+    img: "assets/images/Sidious.jpg"
 }
 
 var DarthMaul = {
@@ -256,7 +256,7 @@ function restartGame(){
         name: "Darth Sidious",
         health: 80,
         power: 25,
-        img: "assets/images/sidious.jpg"
+        img: "assets/images/Sidious.jpg"
     }
     DarthMaul = {
         id: 3,
